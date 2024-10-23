@@ -9,5 +9,7 @@ package ClasesEnum;
  * @author Student
  */
 public enum EnumTipoServicio {
-    
+    MANTENIMIENTO,
+    REPARACON,
+    CAMBIODEACEITE,
 }
