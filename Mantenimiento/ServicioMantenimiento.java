@@ -5,6 +5,7 @@
 package Mantenimiento;
 
 import ClasesEnum.EnumTipoServicio;
+import static ClasesEnum.EnumTipoServicio.MANTENIMIENTO;
 import ClasesEnum.EnumVehiculo;
 
 /**
@@ -15,6 +16,15 @@ public class ServicioMantenimiento {
     private EnumTipoServicio tiposervicio;
     private EnumVehiculo estadovehiculo;
     
-    
+public void registrarVehiculo(){
+    {
+        
+    }
+}    
+public void estadovehiculo(){
+ if (MANTENIMIENTO){
+     
+ }
+
 
 }
