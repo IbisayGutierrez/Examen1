@@ -86,7 +86,7 @@ public class TallerMecanico extends javax.swing.JFrame {
         );
         JP1Layout.setVerticalGroup(
             JP1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 438, Short.MAX_VALUE)
+            .addGap(0, 74, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -95,7 +95,7 @@ public class TallerMecanico extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(MostrarV)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 147, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
                 .addComponent(ServiciosR)
                 .addGap(117, 117, 117)
                 .addComponent(ServiciosM))
@@ -151,7 +151,14 @@ public class TallerMecanico extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void ServiciosRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ServiciosRActionPerformed
-        // TODO add your handling code here:
+        ServiciosRealizados Sr = new ServiciosRealizados ();
+        Sr.setSize(680, 420);
+        Sr.setLocation(0, 0);
+        
+        JP1.removeAll();
+        JP1.add(Sr,BorderLayout.CENTER);
+        JP1.revalidate();
+        JP1.repaint();
     }//GEN-LAST:event_ServiciosRActionPerformed
 
     private void MostrarVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MostrarVActionPerformed
@@ -166,12 +173,12 @@ public class TallerMecanico extends javax.swing.JFrame {
     }//GEN-LAST:event_MostrarVActionPerformed
 
     private void ServiciosMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ServiciosMActionPerformed
-      ServiciosRealizados Sr = new ServiciosRealizados ();
-        Sr.setSize(680, 420);
-        Sr.setLocation(0, 0);
+       ServiciosMantenimiento Mv = new ServiciosMantenimiento();
+        Mv.setSize(680, 420);
+        Mv.setLocation(0, 0);
         
         JP1.removeAll();
-        JP1.add(Sr,BorderLayout.CENTER);
+        JP1.add(Mv,BorderLayout.CENTER);
         JP1.revalidate();
         JP1.repaint();
     }//GEN-LAST:event_ServiciosMActionPerformed
