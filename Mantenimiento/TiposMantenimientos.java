@@ -4,10 +4,12 @@
  */
 package Mantenimiento;
 
+import ClasesEnum.EnumTipoServicio;
+
 /**
  *
  * @author Student
  */
 public interface TiposMantenimientos {
-    
+    void estado( EnumTipoServicio estadovehiculo);
 }
