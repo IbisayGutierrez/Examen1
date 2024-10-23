@@ -34,7 +34,24 @@ public class Vehiculo {
     public Vehiculo() {
         this(" "," "," ");
     }
+    
+    public void visualizar(){
+        
+    }
 
+    public void actualizar(){
+        
+    }
+    
+    public void espera(){
+        
+    }
+    
+    public void contarVehiculos(){
+     
+    }
+    
+    
     @Override
     public String toString() {
         return "Vehiculo{" + "Marca=" + Marca + ", Modelo=" + Modelo + ", Matricula=" + Matricula + '}';
