@@ -22,9 +22,6 @@ public void registrarVehiculo(){
     }
 }    
 public void estadovehiculo(){
- if (MANTENIMIENTO){
-     
- }
-
-
+    
+}
 }
