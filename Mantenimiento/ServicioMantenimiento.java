@@ -4,10 +4,17 @@
  */
 package Mantenimiento;
 
+import ClasesEnum.EnumTipoServicio;
+import ClasesEnum.EnumVehiculo;
+
 /**
  *
  * @author Student
  */
 public class ServicioMantenimiento {
+    private EnumTipoServicio tiposervicio;
+    private EnumVehiculo estadovehiculo;
     
+    
+
 }
