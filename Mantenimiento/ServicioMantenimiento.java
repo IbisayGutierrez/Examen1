@@ -7,6 +7,10 @@ package Mantenimiento;
 import ClasesEnum.EnumTipoServicio;
 import static ClasesEnum.EnumTipoServicio.MANTENIMIENTO;
 import ClasesEnum.EnumVehiculo;
+import static ClasesEnum.EnumVehiculo.COMPLETADO;
+import static ClasesEnum.EnumVehiculo.ESPERA;
+import Vehiculos.Vehiculo;
+import java.util.ArrayList;
 
 /**
  *
@@ -15,16 +19,24 @@ import ClasesEnum.EnumVehiculo;
 public class ServicioMantenimiento {
     private EnumTipoServicio tiposervicio;
     private EnumVehiculo estadovehiculo;
+    private ArrayList vehiculos;
     
-public void registrarVehiculo(){
-    {
+public void registrarVehiculo(Vehiculo vehiculos){
+   this.vehiculos = new ArrayList();
         
-    }
+    
 }    
 public void estadovehiculo(){
- if (MANTENIMIENTO){
-     
+ if (MANTENIMIENTO != MANTENIMIENTO){
+     EnumVehiculo COMPLETAD01 = COMPLETADO;
+ }else{
+     EnumVehiculo REPARACION;
+     (ESPERA== REPARACION);
  }
-
-
+ 
 }
+}
+
+
+
+
