@@ -35,6 +35,15 @@ public class Cliente {
         this.NumeroTel = NumeroTel;
     }
 
+public Cliente(){
+    this("","","");
+}
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "Id=" + Id + ", Nombre=" + Nombre + ", NumeroTel=" + NumeroTel + '}';
+    }
+
 
 }   
    
