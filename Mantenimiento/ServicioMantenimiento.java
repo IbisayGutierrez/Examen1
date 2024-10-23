@@ -27,6 +27,7 @@ public void registrarVehiculo(Vehiculo vehiculos){
     
 }    
 public void estadovehiculo(){
+
  if (MANTENIMIENTO != MANTENIMIENTO){
      EnumVehiculo COMPLETAD01 = COMPLETADO;
  }else{
